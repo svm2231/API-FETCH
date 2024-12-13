@@ -9,7 +9,8 @@ document.getElementById('fetchDetails').addEventListener('click', async () => {
   }
 
   // Define the API URL
-  const apiUrl = `https://localhost:7130/api/Members/${memberId}`;
+  const apiUrl = `https://192.168.5.38:7131/api/Members/${memberId}`;
+  console.log(apiUrl);
 
   try {
     // Make a GET request to fetch member details
